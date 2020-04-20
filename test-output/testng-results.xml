@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8513" started-at="2020-04-19T15:35:59Z" finished-at="2020-04-19T15:36:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8513" started-at="2020-04-19T15:35:59Z" finished-at="2020-04-19T15:36:08Z">
+      <class name="com.reqres.testcases.POST_CreateUser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.reqres.testcases.POST_CreateUser@57fffcd7]" name="setup" is-config="true" duration-ms="9" started-at="2020-04-19T15:36:06Z" finished-at="2020-04-19T15:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createUserSetup()[pri:0, instance:com.reqres.testcases.POST_CreateUser@57fffcd7]" name="createUserSetup" is-config="true" duration-ms="1046" started-at="2020-04-19T15:36:06Z" finished-at="2020-04-19T15:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserSetup -->
+        <test-method status="PASS" signature="getBody()[pri:0, instance:com.reqres.testcases.POST_CreateUser@57fffcd7]" name="getBody" duration-ms="42" started-at="2020-04-19T15:36:07Z" finished-at="2020-04-19T15:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBody -->
+        <test-method status="PASS" signature="createUserSetup()[pri:0, instance:com.reqres.testcases.POST_CreateUser@57fffcd7]" name="createUserSetup" is-config="true" duration-ms="1071" started-at="2020-04-19T15:36:07Z" finished-at="2020-04-19T15:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserSetup -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:com.reqres.testcases.POST_CreateUser@57fffcd7]" name="getStatusCode" duration-ms="1" started-at="2020-04-19T15:36:08Z" finished-at="2020-04-19T15:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+      </class> <!-- com.reqres.testcases.POST_CreateUser -->
+      <class name="com.reqres.testcases.GET_ListUsers">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.reqres.testcases.GET_ListUsers@3abbfa04]" name="setup" is-config="true" duration-ms="54" started-at="2020-04-19T15:35:59Z" finished-at="2020-04-19T15:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="listOfUsersSetup()[pri:0, instance:com.reqres.testcases.GET_ListUsers@3abbfa04]" name="listOfUsersSetup" is-config="true" duration-ms="2758" started-at="2020-04-19T15:36:00Z" finished-at="2020-04-19T15:36:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOfUsersSetup -->
+        <test-method status="PASS" signature="extractNodesFromBody()[pri:0, instance:com.reqres.testcases.GET_ListUsers@3abbfa04]" name="extractNodesFromBody" duration-ms="348" started-at="2020-04-19T15:36:02Z" finished-at="2020-04-19T15:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractNodesFromBody -->
+        <test-method status="PASS" signature="listOfUsersSetup()[pri:0, instance:com.reqres.testcases.GET_ListUsers@3abbfa04]" name="listOfUsersSetup" is-config="true" duration-ms="1037" started-at="2020-04-19T15:36:03Z" finished-at="2020-04-19T15:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOfUsersSetup -->
+        <test-method status="PASS" signature="getBody()[pri:0, instance:com.reqres.testcases.GET_ListUsers@3abbfa04]" name="getBody" duration-ms="2" started-at="2020-04-19T15:36:04Z" finished-at="2020-04-19T15:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBody -->
+        <test-method status="PASS" signature="listOfUsersSetup()[pri:0, instance:com.reqres.testcases.GET_ListUsers@3abbfa04]" name="listOfUsersSetup" is-config="true" duration-ms="1069" started-at="2020-04-19T15:36:04Z" finished-at="2020-04-19T15:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOfUsersSetup -->
+        <test-method status="PASS" signature="getHeader()[pri:0, instance:com.reqres.testcases.GET_ListUsers@3abbfa04]" name="getHeader" duration-ms="4" started-at="2020-04-19T15:36:05Z" finished-at="2020-04-19T15:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHeader -->
+        <test-method status="PASS" signature="listOfUsersSetup()[pri:0, instance:com.reqres.testcases.GET_ListUsers@3abbfa04]" name="listOfUsersSetup" is-config="true" duration-ms="1050" started-at="2020-04-19T15:36:05Z" finished-at="2020-04-19T15:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOfUsersSetup -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:com.reqres.testcases.GET_ListUsers@3abbfa04]" name="getStatusCode" duration-ms="2" started-at="2020-04-19T15:36:06Z" finished-at="2020-04-19T15:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+      </class> <!-- com.reqres.testcases.GET_ListUsers -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

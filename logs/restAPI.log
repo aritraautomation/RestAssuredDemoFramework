@@ -1,0 +1,571 @@
+2020-04-19 18:22:08 INFO  EmployeesRestAPI:16 - ********Getting ALL Users Details********
+2020-04-19 18:22:12 INFO  EmployeesRestAPI:25 - ******Get Response Body**********
+2020-04-19 18:22:12 INFO  EmployeesRestAPI:27 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-19 19:31:07 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:31:12 INFO  EmployeesRestAPI:39 - ******Get Response Body**********
+2020-04-19 19:31:12 INFO  EmployeesRestAPI:41 - 2
+2020-04-19 19:31:12 INFO  EmployeesRestAPI:42 - 6
+2020-04-19 19:31:12 INFO  EmployeesRestAPI:43 - 12
+2020-04-19 19:31:12 INFO  EmployeesRestAPI:44 - 2
+2020-04-19 19:31:12 INFO  EmployeesRestAPI:45 - [7, 8, 9, 10, 11, 12]
+2020-04-19 19:31:12 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:31:13 INFO  EmployeesRestAPI:30 - ******Get Response Body**********
+2020-04-19 19:31:13 INFO  EmployeesRestAPI:33 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-19 19:31:13 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:59 - ****Response Header Validation*******
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Date Sun, 19 Apr 2020 14:01:15 GMT
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Transfer-Encoding chunked
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Connection keep-alive
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Set-Cookie __cfduid=d4e180e640f55cc19af01f3c6eb340a4f1587304875; expires=Tue, 19-May-20 14:01:15 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : X-Powered-By Express
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Via 1.1 vegur
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Cache-Control max-age=14400
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : CF-Cache-Status HIT
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Age 1397
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Vary Accept-Encoding
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Server cloudflare
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : CF-RAY 586728124fd8f3f3-LHR
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : Content-Encoding gzip
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:63 - Response Headers are : cf-request-id 0234575f6c0000f3f359047200000001
+2020-04-19 19:31:14 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:31:15 INFO  EmployeesRestAPI:50 - ******Get Response Code**********
+2020-04-19 19:31:15 INFO  EmployeesRestAPI:53 - Response Status Code : 200
+2020-04-19 19:33:00 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:33:04 INFO  EmployeesRestAPI:39 - ******Get Response Body**********
+2020-04-19 19:33:04 INFO  EmployeesRestAPI:41 - 2
+2020-04-19 19:33:04 INFO  EmployeesRestAPI:42 - 6
+2020-04-19 19:33:04 INFO  EmployeesRestAPI:43 - 12
+2020-04-19 19:33:04 INFO  EmployeesRestAPI:44 - 2
+2020-04-19 19:33:04 INFO  EmployeesRestAPI:45 - 7
+2020-04-19 19:33:04 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:33:06 INFO  EmployeesRestAPI:30 - ******Get Response Body**********
+2020-04-19 19:33:06 INFO  EmployeesRestAPI:33 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-19 19:33:06 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:59 - ****Response Header Validation*******
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Date Sun, 19 Apr 2020 14:03:08 GMT
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Transfer-Encoding chunked
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Connection keep-alive
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Set-Cookie __cfduid=df4467a5ef9aeb74a76b3c04b4ae5265a1587304988; expires=Tue, 19-May-20 14:03:08 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : X-Powered-By Express
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Via 1.1 vegur
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Cache-Control max-age=14400
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : CF-Cache-Status HIT
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Age 1510
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Vary Accept-Encoding
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Server cloudflare
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : CF-RAY 58672acf9943f3f3-LHR
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : Content-Encoding gzip
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:63 - Response Headers are : cf-request-id 02345915bf0000f3f350998200000001
+2020-04-19 19:33:07 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:33:08 INFO  EmployeesRestAPI:50 - ******Get Response Code**********
+2020-04-19 19:33:08 INFO  EmployeesRestAPI:53 - Response Status Code : 200
+2020-04-19 19:37:06 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:37:10 INFO  EmployeesRestAPI:39 - ******Get Response Body**********
+2020-04-19 19:37:11 INFO  EmployeesRestAPI:41 - 2
+2020-04-19 19:37:11 INFO  EmployeesRestAPI:42 - 6
+2020-04-19 19:37:11 INFO  EmployeesRestAPI:43 - 12
+2020-04-19 19:37:11 INFO  EmployeesRestAPI:44 - 2
+2020-04-19 19:37:11 INFO  EmployeesRestAPI:45 - 7
+2020-04-19 19:37:11 INFO  EmployeesRestAPI:46 - Michael
+2020-04-19 19:37:11 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:37:12 INFO  EmployeesRestAPI:30 - ******Get Response Body**********
+2020-04-19 19:37:12 INFO  EmployeesRestAPI:33 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-19 19:37:12 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:63 - ****Response Header Validation*******
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Date Sun, 19 Apr 2020 14:07:14 GMT
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Transfer-Encoding chunked
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Connection keep-alive
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Set-Cookie __cfduid=d8c42c97af78579ee421c57b49d8c66d21587305234; expires=Tue, 19-May-20 14:07:14 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : X-Powered-By Express
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Via 1.1 vegur
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Cache-Control max-age=14400
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : CF-Cache-Status HIT
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Age 1756
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Vary Accept-Encoding
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Server cloudflare
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : CF-RAY 586730d35eb3f42b-LHR
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : Content-Encoding gzip
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:67 - Response Headers are : cf-request-id 02345cd8190000f42be52ba200000001
+2020-04-19 19:37:13 INFO  EmployeesRestAPI:20 - ********Getting ALL Users Details********
+2020-04-19 19:37:14 INFO  EmployeesRestAPI:54 - ******Get Response Code**********
+2020-04-19 19:37:14 INFO  EmployeesRestAPI:57 - Response Status Code : 200
+2020-04-19 20:02:27 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:02:32 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-19 20:02:32 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"404","createdAt":"2020-04-19T14:32:33.371Z"}
+2020-04-19 20:02:33 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:02:34 INFO  EmployeesRestAPI:53 - ******POST Response Code**********
+2020-04-19 20:02:34 INFO  EmployeesRestAPI:56 - Response Status Code : 201
+2020-04-19 20:03:07 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:03:11 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-19 20:03:11 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"763","createdAt":"2020-04-19T14:33:12.544Z"}
+2020-04-19 20:03:12 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:03:13 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-19 20:03:13 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-19 20:04:38 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:04:42 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-19 20:04:42 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"757","createdAt":"2020-04-19T14:34:42.891Z"}
+2020-04-19 20:04:42 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:04:44 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-19 20:04:44 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-19 20:08:24 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:08:29 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-19 20:08:29 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"276","createdAt":"2020-04-19T14:38:30.019Z"}
+2020-04-19 20:08:29 INFO  EmployeesRestAPI:41 - Name of created User is : morpheus
+2020-04-19 20:08:29 INFO  EmployeesRestAPI:42 - Job Name is : leader
+2020-04-19 20:08:29 INFO  EmployeesRestAPI:43 - Job Id is : 276
+2020-04-19 20:08:29 INFO  EmployeesRestAPI:44 - User created at : 2020-04-19T14:38:30.019Z
+2020-04-19 20:08:29 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:08:30 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-19 20:08:30 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-19 20:25:22 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:25:28 INFO  EmployeesRestAPI:37 - ******Get Response Body**********
+2020-04-19 20:25:28 INFO  EmployeesRestAPI:39 - 2
+2020-04-19 20:25:28 INFO  EmployeesRestAPI:40 - 6
+2020-04-19 20:25:28 INFO  EmployeesRestAPI:41 - 12
+2020-04-19 20:25:28 INFO  EmployeesRestAPI:42 - 2
+2020-04-19 20:25:28 INFO  EmployeesRestAPI:43 - 7
+2020-04-19 20:25:28 INFO  EmployeesRestAPI:44 - Michael
+2020-04-19 20:25:28 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:25:29 INFO  EmployeesRestAPI:28 - ******Response Body**********
+2020-04-19 20:25:29 INFO  EmployeesRestAPI:31 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-19 20:25:29 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:61 - ****Response Header Validation*******
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Date Sun, 19 Apr 2020 14:55:31 GMT
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Transfer-Encoding chunked
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Connection keep-alive
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Set-Cookie __cfduid=dc13e553afdbe7c44670d94ba49454dab1587308131; expires=Tue, 19-May-20 14:55:31 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : X-Powered-By Express
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Via 1.1 vegur
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Cache-Control max-age=14400
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : CF-Cache-Status HIT
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Age 4653
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Vary Accept-Encoding
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Server cloudflare
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : CF-RAY 586777900c1adc13-LHR
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Encoding gzip
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:65 - Response Headers are : cf-request-id 0234890e020000dc132e190200000001
+2020-04-19 20:25:30 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:25:31 INFO  EmployeesRestAPI:52 - ******Get Response Code**********
+2020-04-19 20:25:31 INFO  EmployeesRestAPI:55 - Response Status Code : 200
+2020-04-19 20:25:31 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:25:33 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-19 20:25:33 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"32","createdAt":"2020-04-19T14:55:34.036Z"}
+2020-04-19 20:25:33 INFO  EmployeesRestAPI:41 - Name of created User is : morpheus
+2020-04-19 20:25:33 INFO  EmployeesRestAPI:42 - Job Name is : leader
+2020-04-19 20:25:33 INFO  EmployeesRestAPI:43 - Job Id is : 32
+2020-04-19 20:25:33 INFO  EmployeesRestAPI:44 - User created at : 2020-04-19T14:55:34.036Z
+2020-04-19 20:25:33 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:25:34 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-19 20:25:34 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-19 20:36:59 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:37:02 INFO  EmployeesRestAPI:37 - ******Get Response Body**********
+2020-04-19 20:37:02 INFO  EmployeesRestAPI:39 - 2
+2020-04-19 20:37:02 INFO  EmployeesRestAPI:40 - 6
+2020-04-19 20:37:02 INFO  EmployeesRestAPI:41 - 12
+2020-04-19 20:37:02 INFO  EmployeesRestAPI:42 - 2
+2020-04-19 20:37:02 INFO  EmployeesRestAPI:43 - 7
+2020-04-19 20:37:02 INFO  EmployeesRestAPI:44 - Michael
+2020-04-19 20:37:02 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:37:03 INFO  EmployeesRestAPI:28 - ******Response Body**********
+2020-04-19 20:37:03 INFO  EmployeesRestAPI:31 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-19 20:37:03 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:61 - ****Response Header Validation*******
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Date Sun, 19 Apr 2020 15:07:05 GMT
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Transfer-Encoding chunked
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Connection keep-alive
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Set-Cookie __cfduid=d48e0666237b39129ff3fa0c7966cdb8e1587308825; expires=Tue, 19-May-20 15:07:05 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : X-Powered-By Express
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Via 1.1 vegur
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Cache-Control max-age=14400
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : CF-Cache-Status HIT
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Age 5347
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Vary Accept-Encoding
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Server cloudflare
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : CF-RAY 5867887ffb66004a-LHR
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Encoding gzip
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:65 - Response Headers are : cf-request-id 023493a3fa0000004a1296e200000001
+2020-04-19 20:37:04 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:37:05 INFO  EmployeesRestAPI:52 - ******Get Response Code**********
+2020-04-19 20:37:05 INFO  EmployeesRestAPI:55 - Response Status Code : 200
+2020-04-19 20:37:05 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:37:06 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-19 20:37:06 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"523","createdAt":"2020-04-19T15:07:07.733Z"}
+2020-04-19 20:37:06 INFO  EmployeesRestAPI:41 - Name of created User is : morpheus
+2020-04-19 20:37:06 INFO  EmployeesRestAPI:42 - Job Name is : leader
+2020-04-19 20:37:06 INFO  EmployeesRestAPI:43 - Job Id is : 523
+2020-04-19 20:37:06 INFO  EmployeesRestAPI:44 - User created at : 2020-04-19T15:07:07.733Z
+2020-04-19 20:37:06 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:37:07 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-19 20:37:07 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-19 20:45:34 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:45:37 INFO  EmployeesRestAPI:37 - ******Get Response Body**********
+2020-04-19 20:45:37 INFO  EmployeesRestAPI:39 - 2
+2020-04-19 20:45:37 INFO  EmployeesRestAPI:40 - 6
+2020-04-19 20:45:37 INFO  EmployeesRestAPI:41 - 12
+2020-04-19 20:45:37 INFO  EmployeesRestAPI:42 - 2
+2020-04-19 20:45:37 INFO  EmployeesRestAPI:43 - 7
+2020-04-19 20:45:37 INFO  EmployeesRestAPI:44 - Michael
+2020-04-19 20:45:37 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:45:38 INFO  EmployeesRestAPI:28 - ******Response Body**********
+2020-04-19 20:45:38 INFO  EmployeesRestAPI:31 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-19 20:45:38 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:61 - ****Response Header Validation*******
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Date Sun, 19 Apr 2020 15:15:40 GMT
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Transfer-Encoding chunked
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Connection keep-alive
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Set-Cookie __cfduid=d25ed08b91d7cad2b5b1700e8f8dd1edf1587309340; expires=Tue, 19-May-20 15:15:40 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : X-Powered-By Express
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Via 1.1 vegur
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Cache-Control max-age=14400
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : CF-Cache-Status HIT
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Age 5862
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Vary Accept-Encoding
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Server cloudflare
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : CF-RAY 586795139d626a83-LHR
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Encoding gzip
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:65 - Response Headers are : cf-request-id 02349b804200006a83cf15d200000001
+2020-04-19 20:45:39 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:45:40 INFO  EmployeesRestAPI:52 - ******Get Response Code**********
+2020-04-19 20:45:40 INFO  EmployeesRestAPI:55 - Response Status Code : 200
+2020-04-19 20:45:40 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:45:41 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-19 20:45:41 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"51","createdAt":"2020-04-19T15:15:42.978Z"}
+2020-04-19 20:45:41 INFO  EmployeesRestAPI:41 - Name of created User is : morpheus
+2020-04-19 20:45:42 INFO  EmployeesRestAPI:42 - Job Name is : leader
+2020-04-19 20:45:42 INFO  EmployeesRestAPI:43 - Job Id is : 51
+2020-04-19 20:45:42 INFO  EmployeesRestAPI:44 - User created at : 2020-04-19T15:15:42.978Z
+2020-04-19 20:45:42 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:45:43 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-19 20:45:43 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-19 20:57:13 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:57:16 INFO  EmployeesRestAPI:37 - ******Get Response Body**********
+2020-04-19 20:57:16 INFO  EmployeesRestAPI:39 - 2
+2020-04-19 20:57:16 INFO  EmployeesRestAPI:40 - 6
+2020-04-19 20:57:16 INFO  EmployeesRestAPI:41 - 12
+2020-04-19 20:57:16 INFO  EmployeesRestAPI:42 - 2
+2020-04-19 20:57:16 INFO  EmployeesRestAPI:43 - 7
+2020-04-19 20:57:17 INFO  EmployeesRestAPI:44 - Michael
+2020-04-19 20:57:17 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:57:18 INFO  EmployeesRestAPI:28 - ******Response Body**********
+2020-04-19 20:57:18 INFO  EmployeesRestAPI:31 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-19 20:57:18 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:61 - ****Response Header Validation*******
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Date Sun, 19 Apr 2020 15:27:20 GMT
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Transfer-Encoding chunked
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Connection keep-alive
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Set-Cookie __cfduid=d28e21c2b097180ee4899f2a96803742b1587310040; expires=Tue, 19-May-20 15:27:20 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : X-Powered-By Express
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Via 1.1 vegur
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Cache-Control max-age=14400
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : CF-Cache-Status HIT
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Age 6562
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Vary Accept-Encoding
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Server cloudflare
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : CF-RAY 5867a62648b9dc43-LHR
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Encoding gzip
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:65 - Response Headers are : cf-request-id 0234a62be80000dc43389eb200000001
+2020-04-19 20:57:19 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 20:57:20 INFO  EmployeesRestAPI:52 - ******Get Response Code**********
+2020-04-19 20:57:20 INFO  EmployeesRestAPI:55 - Response Status Code : 200
+2020-04-19 20:57:20 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:57:21 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-19 20:57:21 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"574","createdAt":"2020-04-19T15:27:22.106Z"}
+2020-04-19 20:57:21 INFO  EmployeesRestAPI:41 - Name of created User is : morpheus
+2020-04-19 20:57:21 INFO  EmployeesRestAPI:42 - Job Name is : leader
+2020-04-19 20:57:21 INFO  EmployeesRestAPI:43 - Job Id is : 574
+2020-04-19 20:57:21 INFO  EmployeesRestAPI:44 - User created at : 2020-04-19T15:27:22.106Z
+2020-04-19 20:57:21 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 20:57:22 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-19 20:57:22 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-19 21:00:42 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 21:00:44 INFO  EmployeesRestAPI:37 - ******Get Response Body**********
+2020-04-19 21:00:45 INFO  EmployeesRestAPI:39 - 2
+2020-04-19 21:00:45 INFO  EmployeesRestAPI:40 - 6
+2020-04-19 21:00:45 INFO  EmployeesRestAPI:41 - 12
+2020-04-19 21:00:45 INFO  EmployeesRestAPI:42 - 2
+2020-04-19 21:00:45 INFO  EmployeesRestAPI:43 - 7
+2020-04-19 21:00:45 INFO  EmployeesRestAPI:44 - Michael
+2020-04-19 21:00:45 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 21:00:46 INFO  EmployeesRestAPI:28 - ******Response Body**********
+2020-04-19 21:00:46 INFO  EmployeesRestAPI:31 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-19 21:00:46 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:61 - ****Response Header Validation*******
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Date Sun, 19 Apr 2020 15:30:48 GMT
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Transfer-Encoding chunked
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Connection keep-alive
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Set-Cookie __cfduid=d3a215f2bd02f967e8b754623e325266a1587310248; expires=Tue, 19-May-20 15:30:48 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : X-Powered-By Express
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Via 1.1 vegur
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Cache-Control max-age=14400
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : CF-Cache-Status HIT
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Age 6770
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Vary Accept-Encoding
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Server cloudflare
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : CF-RAY 5867ab3c1b59dc43-LHR
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Encoding gzip
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:65 - Response Headers are : cf-request-id 0234a9598d0000dc4332a9c200000001
+2020-04-19 21:00:47 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 21:00:48 INFO  EmployeesRestAPI:52 - ******Get Response Code**********
+2020-04-19 21:00:48 INFO  EmployeesRestAPI:55 - Response Status Code : 200
+2020-04-19 21:00:48 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 21:00:49 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-19 21:00:49 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"311","createdAt":"2020-04-19T15:30:50.475Z"}
+2020-04-19 21:00:49 INFO  EmployeesRestAPI:41 - Name of created User is : morpheus
+2020-04-19 21:00:49 INFO  EmployeesRestAPI:42 - Job Name is : leader
+2020-04-19 21:00:49 INFO  EmployeesRestAPI:43 - Job Id is : 311
+2020-04-19 21:00:49 INFO  EmployeesRestAPI:44 - User created at : 2020-04-19T15:30:50.475Z
+2020-04-19 21:00:49 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 21:00:50 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-19 21:00:50 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-19 21:06:00 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 21:06:02 INFO  EmployeesRestAPI:37 - ******Get Response Body**********
+2020-04-19 21:06:03 INFO  EmployeesRestAPI:39 - 2
+2020-04-19 21:06:03 INFO  EmployeesRestAPI:40 - 6
+2020-04-19 21:06:03 INFO  EmployeesRestAPI:41 - 12
+2020-04-19 21:06:03 INFO  EmployeesRestAPI:42 - 2
+2020-04-19 21:06:03 INFO  EmployeesRestAPI:43 - 7
+2020-04-19 21:06:03 INFO  EmployeesRestAPI:44 - Michael
+2020-04-19 21:06:03 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 21:06:04 INFO  EmployeesRestAPI:28 - ******Response Body**********
+2020-04-19 21:06:04 INFO  EmployeesRestAPI:31 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-19 21:06:04 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:61 - ****Response Header Validation*******
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Date Sun, 19 Apr 2020 15:36:06 GMT
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Transfer-Encoding chunked
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Connection keep-alive
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Set-Cookie __cfduid=d28c93aebeabf08d0eb97c8d57cfe52a81587310566; expires=Tue, 19-May-20 15:36:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : X-Powered-By Express
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Via 1.1 vegur
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Cache-Control max-age=14400
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : CF-Cache-Status HIT
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Age 7088
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Vary Accept-Encoding
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Server cloudflare
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : CF-RAY 5867b2febd9d0091-LHR
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Encoding gzip
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:65 - Response Headers are : cf-request-id 0234ae332f00000091f1391200000001
+2020-04-19 21:06:05 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-19 21:06:06 INFO  EmployeesRestAPI:52 - ******Get Response Code**********
+2020-04-19 21:06:06 INFO  EmployeesRestAPI:55 - Response Status Code : 200
+2020-04-19 21:06:06 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 21:06:07 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-19 21:06:07 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"544","createdAt":"2020-04-19T15:36:08.339Z"}
+2020-04-19 21:06:07 INFO  EmployeesRestAPI:41 - Name of created User is : morpheus
+2020-04-19 21:06:07 INFO  EmployeesRestAPI:42 - Job Name is : leader
+2020-04-19 21:06:07 INFO  EmployeesRestAPI:43 - Job Id is : 544
+2020-04-19 21:06:07 INFO  EmployeesRestAPI:44 - User created at : 2020-04-19T15:36:08.339Z
+2020-04-19 21:06:07 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-19 21:06:08 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-19 21:06:08 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-20 00:20:09 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:20:15 INFO  EmployeesRestAPI:37 - ******Get Response Body**********
+2020-04-20 00:20:16 INFO  EmployeesRestAPI:39 - 2
+2020-04-20 00:20:16 INFO  EmployeesRestAPI:40 - 6
+2020-04-20 00:20:16 INFO  EmployeesRestAPI:41 - 12
+2020-04-20 00:20:16 INFO  EmployeesRestAPI:42 - 2
+2020-04-20 00:20:16 INFO  EmployeesRestAPI:43 - 7
+2020-04-20 00:20:16 INFO  EmployeesRestAPI:44 - Michael
+2020-04-20 00:20:16 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:20:17 INFO  EmployeesRestAPI:28 - ******Response Body**********
+2020-04-20 00:20:17 INFO  EmployeesRestAPI:31 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-20 00:20:17 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:61 - ****Response Header Validation*******
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Date Sun, 19 Apr 2020 18:50:20 GMT
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Transfer-Encoding chunked
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Connection keep-alive
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Set-Cookie __cfduid=da7cf17a705ac4499edca711fce4d92321587322220; expires=Tue, 19-May-20 18:50:20 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : X-Powered-By Express
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Via 1.1 vegur
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Cache-Control max-age=14400
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : CF-Cache-Status HIT
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Age 4307
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Vary Accept-Encoding
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Server cloudflare
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : CF-RAY 5868cf855cb56a1d-LHR
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Encoding gzip
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:65 - Response Headers are : cf-request-id 023560075200006a1dbf8cb200000001
+2020-04-20 00:20:19 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:20:20 INFO  EmployeesRestAPI:52 - ******Get Response Code**********
+2020-04-20 00:20:20 INFO  EmployeesRestAPI:55 - Response Status Code : 200
+2020-04-20 00:20:20 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-20 00:20:22 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-20 00:20:22 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"466","createdAt":"2020-04-19T18:50:23.546Z"}
+2020-04-20 00:20:22 INFO  EmployeesRestAPI:41 - Name of created User is : morpheus
+2020-04-20 00:20:22 INFO  EmployeesRestAPI:42 - Job Name is : leader
+2020-04-20 00:20:22 INFO  EmployeesRestAPI:43 - Job Id is : 466
+2020-04-20 00:20:22 INFO  EmployeesRestAPI:44 - User created at : 2020-04-19T18:50:23.546Z
+2020-04-20 00:20:22 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-20 00:20:23 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-20 00:20:23 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-20 00:41:39 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:41:43 INFO  EmployeesRestAPI:37 - ******Get Response Body**********
+2020-04-20 00:41:44 INFO  EmployeesRestAPI:39 - 2
+2020-04-20 00:41:44 INFO  EmployeesRestAPI:40 - 6
+2020-04-20 00:41:44 INFO  EmployeesRestAPI:41 - 12
+2020-04-20 00:41:44 INFO  EmployeesRestAPI:42 - 2
+2020-04-20 00:41:44 INFO  EmployeesRestAPI:43 - 7
+2020-04-20 00:41:44 INFO  EmployeesRestAPI:44 - Michael
+2020-04-20 00:41:44 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:41:45 INFO  EmployeesRestAPI:28 - ******Response Body**********
+2020-04-20 00:41:45 INFO  EmployeesRestAPI:31 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-20 00:41:45 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:61 - ****Response Header Validation*******
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Date Sun, 19 Apr 2020 19:11:48 GMT
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Transfer-Encoding chunked
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Connection keep-alive
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Set-Cookie __cfduid=db99d964c8502d5ff01aab0ed7f5c94cb1587323508; expires=Tue, 19-May-20 19:11:48 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : X-Powered-By Express
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Via 1.1 vegur
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Cache-Control max-age=14400
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : CF-Cache-Status HIT
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Age 5595
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Vary Accept-Encoding
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Server cloudflare
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : CF-RAY 5868eef67e73e62c-LHR
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Encoding gzip
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:65 - Response Headers are : cf-request-id 023573ae070000e62c04a7b200000001
+2020-04-20 00:41:47 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:41:48 INFO  EmployeesRestAPI:52 - ******Get Response Code**********
+2020-04-20 00:41:48 INFO  EmployeesRestAPI:55 - Response Status Code : 200
+2020-04-20 00:41:48 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-20 00:41:49 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-20 00:41:49 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"323","createdAt":"2020-04-19T19:11:51.130Z"}
+2020-04-20 00:41:49 INFO  EmployeesRestAPI:41 - Name of created User is : morpheus
+2020-04-20 00:41:50 INFO  EmployeesRestAPI:42 - Job Name is : leader
+2020-04-20 00:41:50 INFO  EmployeesRestAPI:43 - Job Id is : 323
+2020-04-20 00:41:50 INFO  EmployeesRestAPI:44 - User created at : 2020-04-19T19:11:51.130Z
+2020-04-20 00:41:50 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-20 00:41:51 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-20 00:41:51 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-20 00:45:18 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:45:22 INFO  EmployeesRestAPI:37 - ******Get Response Body**********
+2020-04-20 00:45:22 INFO  EmployeesRestAPI:39 - 2
+2020-04-20 00:45:22 INFO  EmployeesRestAPI:40 - 6
+2020-04-20 00:45:22 INFO  EmployeesRestAPI:41 - 12
+2020-04-20 00:45:22 INFO  EmployeesRestAPI:42 - 2
+2020-04-20 00:45:23 INFO  EmployeesRestAPI:43 - 7
+2020-04-20 00:45:23 INFO  EmployeesRestAPI:44 - Michael
+2020-04-20 00:45:23 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:45:24 INFO  EmployeesRestAPI:28 - ******Response Body**********
+2020-04-20 00:45:24 INFO  EmployeesRestAPI:31 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-20 00:45:24 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:61 - ****Response Header Validation*******
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Date Sun, 19 Apr 2020 19:15:27 GMT
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Transfer-Encoding chunked
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Connection keep-alive
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Set-Cookie __cfduid=d440c465d9c7734d82771bb46525c6a611587323727; expires=Tue, 19-May-20 19:15:27 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : X-Powered-By Express
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Via 1.1 vegur
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Cache-Control max-age=14400
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : CF-Cache-Status HIT
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Age 5814
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Vary Accept-Encoding
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Server cloudflare
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : CF-RAY 5868f44e4edbe62c-LHR
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Encoding gzip
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:65 - Response Headers are : cf-request-id 02357704f00000e62cfb275200000001
+2020-04-20 00:45:25 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 00:45:27 INFO  EmployeesRestAPI:52 - ******Get Response Code**********
+2020-04-20 00:45:27 INFO  EmployeesRestAPI:55 - Response Status Code : 200
+2020-04-20 00:45:27 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-20 00:45:28 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-20 00:45:28 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"548","createdAt":"2020-04-19T19:15:30.039Z"}
+2020-04-20 00:45:28 INFO  EmployeesRestAPI:41 - Name of created User is : morpheus
+2020-04-20 00:45:28 INFO  EmployeesRestAPI:42 - Job Name is : leader
+2020-04-20 00:45:28 INFO  EmployeesRestAPI:43 - Job Id is : 548
+2020-04-20 00:45:28 INFO  EmployeesRestAPI:44 - User created at : 2020-04-19T19:15:30.039Z
+2020-04-20 00:45:28 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-20 00:45:30 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-20 00:45:30 INFO  EmployeesRestAPI:55 - Response Status Code : 201
+2020-04-20 13:04:42 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 13:04:47 INFO  EmployeesRestAPI:37 - ******Get Response Body**********
+2020-04-20 13:04:47 INFO  EmployeesRestAPI:39 - 2
+2020-04-20 13:04:47 INFO  EmployeesRestAPI:40 - 6
+2020-04-20 13:04:47 INFO  EmployeesRestAPI:41 - 12
+2020-04-20 13:04:47 INFO  EmployeesRestAPI:42 - 2
+2020-04-20 13:04:47 INFO  EmployeesRestAPI:43 - 7
+2020-04-20 13:04:47 INFO  EmployeesRestAPI:44 - Michael
+2020-04-20 13:04:48 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 13:04:49 INFO  EmployeesRestAPI:28 - ******Response Body**********
+2020-04-20 13:04:49 INFO  EmployeesRestAPI:31 - Response Body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-20 13:04:49 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:61 - ****Response Header Validation*******
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Date Mon, 20 Apr 2020 07:34:49 GMT
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Type application/json; charset=utf-8
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Transfer-Encoding chunked
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Connection keep-alive
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Set-Cookie __cfduid=d7b77f1a9bd393c1fc3b249abfcdc164a1587368089; expires=Wed, 20-May-20 07:34:49 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : X-Powered-By Express
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Access-Control-Allow-Origin *
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Etag W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Via 1.1 vegur
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Cache-Control max-age=14400
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : CF-Cache-Status HIT
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Age 6836
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Expect-CT max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Vary Accept-Encoding
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Server cloudflare
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : CF-RAY 586d2f623ccbdc43-LHR
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : Content-Encoding gzip
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:65 - Response Headers are : cf-request-id 02381bf1600000dc433526a200000001
+2020-04-20 13:04:50 INFO  EmployeesRestAPI:18 - ********Getting ALL Users Details********
+2020-04-20 13:04:51 INFO  EmployeesRestAPI:52 - ******Get Response Code**********
+2020-04-20 13:04:51 INFO  EmployeesRestAPI:55 - Response Status Code : 200
+2020-04-20 13:04:51 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-20 13:04:52 INFO  EmployeesRestAPI:35 - ******POST Response Body**********
+2020-04-20 13:04:52 INFO  EmployeesRestAPI:38 - Reponse body : {"name":"morpheus","job":"leader","id":"516","createdAt":"2020-04-20T07:34:52.221Z"}
+2020-04-20 13:04:52 INFO  EmployeesRestAPI:41 - Name of created User is : morpheus
+2020-04-20 13:04:52 INFO  EmployeesRestAPI:42 - Job Name is : leader
+2020-04-20 13:04:52 INFO  EmployeesRestAPI:43 - Job Id is : 516
+2020-04-20 13:04:52 INFO  EmployeesRestAPI:44 - User created at : 2020-04-20T07:34:52.221Z
+2020-04-20 13:04:52 INFO  EmployeesRestAPI:17 - ********Create User********
+2020-04-20 13:04:53 INFO  EmployeesRestAPI:52 - ******POST Response Code**********
+2020-04-20 13:04:53 INFO  EmployeesRestAPI:55 - Response Status Code : 201
